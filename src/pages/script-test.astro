@@ -1,0 +1,35 @@
+---
+const codeFence = "fence btn";
+// console.log(codeFence); // this would not log anything on the browser
+
+// very typical for fetching data
+const users = [
+  { name: "Kamsy", age: 26 },
+  { name: "Jolene", age: 36 },
+  { name: "Brad", age: 56 },
+];
+---
+
+<div class="flex mt-4 justify-center">
+  <button class="px-8 bg-black py-2 border text-white rounded-full text-xs mr-2"
+    >{codeFence}</button
+  >
+  <button
+    id="templateScriptBtn"
+    class="px-8 bg-black py-2 border text-white rounded-full text-xs mr-2"
+    >template script</button
+  >
+</div>
+<ul class="p-4">
+  {users.map((user) => <li>{user.name}</li>)}
+</ul>
+
+<script>
+  const click = document.getElementById("templateScriptBtn");
+
+  const handleClick = () => {
+    console.log("clicks");
+  };
+
+  click?.addEventListener("click", handleClick);
+</script>
