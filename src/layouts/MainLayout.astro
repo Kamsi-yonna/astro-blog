@@ -1,6 +1,10 @@
 ---
 import { Image } from "astro:assets";
 import logo from "../images/logo.png";
+
+// const { title } = Astro.props;
+
+const { title = "Astro" } = Astro.props; // sets a default value
 ---
 
 <html lang="en">
@@ -16,7 +20,7 @@ import logo from "../images/logo.png";
       integrity="sha512-BJ/5sR2hFxQTKin/55JQCcMTObShDBAmVjL/3NR/MVcrhyOazJjAgvROem03+HYyGw16SVdSfoWCFGr9syxAKA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"></script>
-    <title>Tech People Blog</title>
+    <title>{title}</title>
   </head>
   <body class="">
     <nav class="bg-gray-900 text-white">
@@ -58,7 +62,7 @@ import logo from "../images/logo.png";
           >
             <li>
               <a
-                href="/index"
+                href="/"
                 class="block py-2 px-3 text-white rounded md:p-0 hover:text-indigo-400"
                 aria-current="page">Home</a
               >

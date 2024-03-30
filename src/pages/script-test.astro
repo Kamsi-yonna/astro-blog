@@ -1,4 +1,5 @@
 ---
+import MainLayout from "../layouts/MainLayout.astro";
 const codeFence = "fence btn";
 // console.log(codeFence); // this would not log anything on the browser
 
@@ -10,20 +11,22 @@ const users = [
 ];
 ---
 
-<div class="flex mt-4 justify-center">
-  <button class="px-8 bg-black py-2 border text-white rounded-full text-xs mr-2"
-    >{codeFence}</button
-  >
-  <button
-    id="templateScriptBtn"
-    class="px-8 bg-black py-2 border text-white rounded-full text-xs mr-2"
-    >template script</button
-  >
-</div>
-<ul class="p-4">
-  {users.map((user) => <li>{user.name}</li>)}
-</ul>
-
+<MainLayout>
+  <div class="flex mt-4 justify-center">
+    <button
+      class="px-8 bg-black py-2 border text-white rounded-full text-xs mr-2"
+      >{codeFence}</button
+    >
+    <button
+      id="templateScriptBtn"
+      class="px-8 bg-black py-2 border text-white rounded-full text-xs mr-2"
+      >template script</button
+    >
+  </div>
+  <ul class="p-4">
+    {users.map((user) => <li>{user.name}</li>)}
+  </ul>
+</MainLayout>
 <script>
   const click = document.getElementById("templateScriptBtn");
 
