@@ -1,6 +1,6 @@
 /* empty css                          */
 import { e as createAstro, f as createComponent, r as renderTemplate, m as maybeRenderHead, h as addAttribute, i as renderComponent } from '../astro_pAK8uUKj.mjs';
-import { c as capitalize, g as getEntry, f as formatDate, $ as $$MainLayout } from './404_CcO_qWIK.mjs';
+import { c as capitalize, g as getEntry, f as formatDate, $ as $$MainLayout } from './404_BIpy6-BX.mjs';
 /* empty css                           */
 
 const $$Astro$1 = createAstro();

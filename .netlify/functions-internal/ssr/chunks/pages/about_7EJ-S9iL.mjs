@@ -1,6 +1,6 @@
 /* empty css                          */
 import { e as createAstro, f as createComponent, r as renderTemplate, i as renderComponent, m as maybeRenderHead } from '../astro_pAK8uUKj.mjs';
-import { b as $$Image, $ as $$MainLayout } from './404_CcO_qWIK.mjs';
+import { b as $$Image, $ as $$MainLayout } from './404_BIpy6-BX.mjs';
 
 const about = new Proxy({"src":"/_astro/about.C1FZ3Rbp.jpg","width":6000,"height":4000,"format":"jpg"}, {
 						get(target, name, receiver) {

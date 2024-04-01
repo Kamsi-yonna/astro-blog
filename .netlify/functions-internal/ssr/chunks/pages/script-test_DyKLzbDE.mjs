@@ -1,6 +1,6 @@
 /* empty css                          */
 import { e as createAstro, f as createComponent, r as renderTemplate, i as renderComponent, m as maybeRenderHead } from '../astro_pAK8uUKj.mjs';
-import { $ as $$MainLayout } from './404_CcO_qWIK.mjs';
+import { $ as $$MainLayout } from './404_BIpy6-BX.mjs';
 
 const $$Astro = createAstro();
 const $$ScriptTest = createComponent(async ($$result, $$props, $$slots) => {

@@ -1,6 +1,6 @@
 /* empty css                          */
 import { e as createAstro, f as createComponent, r as renderTemplate, m as maybeRenderHead, h as addAttribute, i as renderComponent } from '../astro_pAK8uUKj.mjs';
-import { f as formatDate, a as getCollection, c as capitalize, $ as $$MainLayout } from './404_CcO_qWIK.mjs';
+import { f as formatDate, a as getCollection, c as capitalize, $ as $$MainLayout } from './404_BIpy6-BX.mjs';
 
 const $$Astro$1 = createAstro();
 const $$ArticleCard = createComponent(async ($$result, $$props, $$slots) => {

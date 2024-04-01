@@ -1,4 +1,4 @@
-import { a as getCollection } from './404_CcO_qWIK.mjs';
+import { a as getCollection } from './404_BIpy6-BX.mjs';
 
 const GET = async ({ url }) => {
   const query = url.searchParams.get("query");
